@@ -1,0 +1,6 @@
+@InvestBack.ArquiteturaFIAP.Api_HostAddress = http://localhost:5034
+
+GET {{InvestBack.ArquiteturaFIAP.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

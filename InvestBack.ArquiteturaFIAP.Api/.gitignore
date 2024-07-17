@@ -1,0 +1,86 @@
+# Compiled source files
+*.dll
+*.exe
+*.so
+*.dylib
+*.pdb
+
+# Compilation output
+bin/
+obj/
+
+# Churn files
+*.log
+*.nupkg
+*.snupkg
+*.map
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio specific
+.vs/
+
+# VS Code directories
+.vscode/
+.vscode-test/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Python virtual environment
+env/
+venv/
+
+# Rider files
+.idea/
+
+# dotCover
+*.dcvr
+
+# MSBuild binary log
+*.binlog
+
+# Others
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Configuration files
+appsettings*.json
+appsettings*.xml
+
+# dotnet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
