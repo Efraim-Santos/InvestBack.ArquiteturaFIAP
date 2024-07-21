@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestBack.ArquiteturaFIAP.Api", "InvestBack.ArquiteturaFIAP.Api.csproj", "{09E2BA26-AEA4-406C-9B6B-661578E99390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestBack.ArquiteturaFIAP.Api", "InvestBack.ArquiteturaFIAP.Api.csproj", "{09E2BA26-AEA4-406C-9B6B-661578E99390}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestBack.ArquiteturaFIAP.Infrastructure", "..\..\src\InvestBack.ArquiteturaFIAP.Infrastructure\InvestBack.ArquiteturaFIAP.Infrastructure.csproj", "{F66C4F68-6A58-4FCD-9FEB-6D7D0B35D7EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestBack.ArquiteturaFIAP.Core", "src\InvestBack.ArquiteturaFIAP.Core\InvestBack.ArquiteturaFIAP.Core\InvestBack.ArquiteturaFIAP.Core.csproj", "{E88AB40B-2942-4E38-96EA-BB2145CD3136}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestBack.ArquiteturaFIAP.Core", "src\InvestBack.ArquiteturaFIAP.Core\InvestBack.ArquiteturaFIAP.Core\InvestBack.ArquiteturaFIAP.Core.csproj", "{E88AB40B-2942-4E38-96EA-BB2145CD3136}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestBack.ArquiteturaFIAP.Infrastructure", "src\InvestBack.ArquiteturaFIAP.Infrastructure\InvestBack.ArquiteturaFIAP.Infrastructure.csproj", "{BB817C99-02AA-4323-BA56-A7EFFCAC50AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestBack.ArquiteturaFIAP.Service", "..\..\src\InvestBack.ArquiteturaFIAP.Service\InvestBack.ArquiteturaFIAP.Service.csproj", "{495A8A01-1690-4C7A-802A-5737DCD4D72B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestBack.ArquiteturaFIAP.Service", "src\InvestBack.ArquiteturaFIAP.Service\InvestBack.ArquiteturaFIAP.Service.csproj", "{D913D714-0DDE-4F84-99A1-9BCC20A98258}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{09E2BA26-AEA4-406C-9B6B-661578E99390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09E2BA26-AEA4-406C-9B6B-661578E99390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09E2BA26-AEA4-406C-9B6B-661578E99390}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F66C4F68-6A58-4FCD-9FEB-6D7D0B35D7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F66C4F68-6A58-4FCD-9FEB-6D7D0B35D7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F66C4F68-6A58-4FCD-9FEB-6D7D0B35D7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F66C4F68-6A58-4FCD-9FEB-6D7D0B35D7EE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E88AB40B-2942-4E38-96EA-BB2145CD3136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E88AB40B-2942-4E38-96EA-BB2145CD3136}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E88AB40B-2942-4E38-96EA-BB2145CD3136}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E88AB40B-2942-4E38-96EA-BB2145CD3136}.Release|Any CPU.Build.0 = Release|Any CPU
-		{495A8A01-1690-4C7A-802A-5737DCD4D72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{495A8A01-1690-4C7A-802A-5737DCD4D72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{495A8A01-1690-4C7A-802A-5737DCD4D72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{495A8A01-1690-4C7A-802A-5737DCD4D72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB817C99-02AA-4323-BA56-A7EFFCAC50AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB817C99-02AA-4323-BA56-A7EFFCAC50AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB817C99-02AA-4323-BA56-A7EFFCAC50AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB817C99-02AA-4323-BA56-A7EFFCAC50AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D913D714-0DDE-4F84-99A1-9BCC20A98258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D913D714-0DDE-4F84-99A1-9BCC20A98258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D913D714-0DDE-4F84-99A1-9BCC20A98258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D913D714-0DDE-4F84-99A1-9BCC20A98258}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
