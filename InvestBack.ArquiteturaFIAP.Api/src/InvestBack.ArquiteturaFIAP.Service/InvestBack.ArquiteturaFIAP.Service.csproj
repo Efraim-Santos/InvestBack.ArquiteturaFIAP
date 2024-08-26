@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\InvestBack.ArquiteturaFIAP.Infrastructure\InvestBack.ArquiteturaFIAP.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

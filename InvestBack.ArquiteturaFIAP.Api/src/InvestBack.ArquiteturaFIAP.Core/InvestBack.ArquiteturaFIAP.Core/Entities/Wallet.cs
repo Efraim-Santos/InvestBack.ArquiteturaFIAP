@@ -2,9 +2,10 @@
 {
     public class Wallet : Entity
     {
-        public string Name { get; set; }
-
-        public IEnumerable<Transaction> TransactionsWallet { get; set; }
+        /// <summary>
+        /// Nome da carteira
+        /// </summary>
+        public string Name { get; set; } = string.Empty;
 
         public override bool IsValid()
         {
